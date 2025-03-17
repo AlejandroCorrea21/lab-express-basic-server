@@ -3,6 +3,8 @@
 
 const express = require("express");
 const morgan = require("morgan");
+const projects = require("./data/projects.json");
+const articles = require("./data/articles.json")
 
 // CREATE EXPRESS APP
 // Here you should create your Express app:
